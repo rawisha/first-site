@@ -54,7 +54,7 @@ header nav{
     flex-direction: column;
 }
 #right p{
-    border: solid black 5px;
+    font-size: 16px;
 }
 #right h1{
     color: blueviolet;
