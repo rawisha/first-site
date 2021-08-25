@@ -1,0 +1,84 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background:#2c81b6 ;
+    color: white;
+    padding-top: 2px;
+    min-height: 50px;
+    border-bottom: #e8491d 3px solid;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+header ul{
+    margin: 35px 10px 10px 10px;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #logo{
+    float: left;
+    margin: -50px 0px -30px 0px;
+    padding: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+#seperate {
+    
+    margin-top: 5px;
+}
+#right {
+    display: flex;
+    flex-direction: column;
+}
+#right p{
+    border: solid black 5px;
+}
+#right h1{
+    color: blueviolet;
+}
+#bild{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+#btn{
+    border: 2px solid #4caf50;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: white;
+    
+    
+}
+#btn:hover{
+    background-color: #4caf50;
+    color: white;
+}
