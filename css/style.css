@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
     padding: 0;
     margin: 0;
-    background-color: burlywood;
+    background-color:grey;
 }
 
 .container{
@@ -12,11 +12,12 @@ body{
 }
 
 header{
-    background:#2c81b6 ;
+    background:#2cb69f ;
     color: white;
     padding-top: 2px;
-    min-height: 50px;
-    border-bottom: #e8491d 3px solid;
+    padding-bottom: 2px;
+    border-bottom: red 3px solid;
+    
     
 }
 header a{
@@ -36,34 +37,41 @@ header li{
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
-    border: solid black 2px;
+    border: solid green 2px;
+    color: red;
 }
 header li:hover{
-    background-color: #4caf50;
+    background-color: red;
     color: white;
+    transition: 0.5s;
+    
 }
 header #logo{
     float: left;
     margin: -50px 0px -30px 0px;
     padding: 0;
+    height: 165px;
 }
 header nav{
     float: right;
     margin-top: 10px;
 }
-#seperate {
-    
-    margin-top: 5px;
+header #logo img{
+    width: 200px;
+    height: 200px;
 }
+
 #right {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 #right p{
     font-size: 16px;
+    width: 75%;
 }
 #right h1{
-    color: blueviolet;
+    color: black;
 }
 #bild{
     float: left;
@@ -82,10 +90,11 @@ header nav{
     font-size: 16px;
     margin: 4px 3px;
     background-color: white;
-    
+    float: center;
     
 }
 #btn:hover{
-    background-color: #4caf50;
+    background-color: red;
     color: white;
+    transition: 0.5s;
 }
